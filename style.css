@@ -1,0 +1,543 @@
+@import url("//hello.myfonts.net/count/3a57f7");
+
+@font-face {
+  font-family: "AmicaPro-Bold";
+  src: url("Amica_webfonts/3A57F7_C_0.eot");
+  src: url("Amica_webfonts/3A57F7_C_0.eot?#iefix") format("embedded-opentype"),
+    url("Amica_webfonts/3A57F7_C_0.woff2") format("woff2"),
+    url("Amica_webfonts/3A57F7_C_0.woff") format("woff"),
+    url("Amica_webfonts/3A57F7_C_0.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "AmicaPro-Medium";
+  src: url("Amica_webfonts/3A57F7_A_0.eot");
+  src: url("Amica_webfonts/3A57F7_A_0.eot?#iefix") format("embedded-opentype"),
+    url("Amica_webfonts/3A57F7_A_0.woff2") format("woff2"),
+    url("Amica_webfonts/3A57F7_A_0.woff") format("woff"),
+    url("Amica_webfonts/3A57F7_A_0.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "AmicaPro-Regular";
+  src: url("Amica_webfonts/3A57F7_8_0.eot");
+  src: url("Amica_webfonts/3A57F7_8_0.eot?#iefix") format("embedded-opentype"),
+    url("Amica_webfonts/3A57F7_8_0.woff2") format("woff2"),
+    url("Amica_webfonts/3A57F7_8_0.woff") format("woff"),
+    url("Amica_webfonts/3A57F7_8_0.ttf") format("truetype");
+}
+
+@import url("//hello.myfonts.net/count/3a2d8e");
+
+@font-face {
+  font-family: "Jazmin-Medium";
+  src: url("Jazmin_webfonts/3A2D8E_4_0.eot");
+  src: url("Jazmin_webfonts/3A2D8E_4_0.eot?#iefix") format("embedded-opentype"),
+    url("Jazmin_webfonts/3A2D8E_4_0.woff2") format("woff2"),
+    url("Jazmin_webfonts/3A2D8E_4_0.woff") format("woff"),
+    url("Jazmin_webfonts/3A2D8E_4_0.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Jazmin-Bold";
+  src: url("Jazmin_webfonts/3A2D8E_0_0.eot");
+  src: url("Jazmin_webfonts/3A2D8E_0_0.eot?#iefix") format("embedded-opentype"),
+    url("Jazmin_webfonts/3A2D8E_0_0.woff2") format("woff2"),
+    url("Jazmin_webfonts/3A2D8E_0_0.woff") format("woff"),
+    url("Jazmin_webfonts/3A2D8E_0_0.ttf") format("truetype");
+}
+
+body {
+  margin: 0;
+  background-color: #080a0c;
+  /* background-color: rebeccapurple; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+/*Major break point*/
+
+@media (min-width: 30em) {
+  body {
+    margin: 0;
+    background-color: #080a0c;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+/*Head*/
+
+header {
+  position: fixed;
+  background: #e2a5d4;
+  font-family: "Jazmin-Bold";
+  width: 90vw;
+  margin-top: -15.3em;
+  border-radius: 0 0 15px 15px;
+}
+
+@media (min-width: 30em) {
+  header {
+    /* position: fixed; */
+    background: #080a0c;
+    font-family: "Jazmin-Bold";
+    width: 100vw;
+    margin-top: 0em;
+  }
+}
+
+/* CSS element for dropdown (on a phone) */
+
+header:hover {
+  background: #080a0c;
+  margin-top: 0;
+  margin-left: 0;
+  transition: all 0.3s ease-in;
+}
+
+/* JS element for dropdown */
+
+.zaknaarbendeden {
+  margin-top: 0;
+}
+
+main {
+  height: auto;
+  width: auto;
+}
+
+nav {
+  /* background-color: ; */
+  margin: 6px;
+}
+
+ul {
+  list-style-type: none;
+  color: aliceblue;
+  font-family: "Jazmin-Medium";
+  /* font-weight: 400; */
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-around;
+  margin: 0px;
+  padding: 10px;
+}
+
+@media (min-width: 30vw) {
+  ul {
+    list-style-type: none;
+    color: aliceblue;
+    font-family: "Jazmin-Medium";
+    font-weight: 300;
+    font-size: 30px;
+    /* display: flex;
+    flex-flow: wrap; */
+    justify-content: space-around;
+    margin: 0px;
+    padding: 10px;
+  }
+}
+
+li {
+  margin: 8px;
+  border: 3px;
+  padding: 12px;
+  width: 120px;
+  border-style: none;
+  border-color: #e2a5d4;
+  text-align: center;
+  border-radius: 6px;
+  color: #e2a5d4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  transition: all 0.3s ease-in, width 0.3s ease-in;
+}
+
+@media (min-width: 30em) {
+  li {
+    margin: 4px;
+    border: 3px;
+    padding: 12px;
+    width: 120px;
+    /* border-style: solid;
+    border-color: #ff83d6; */
+    text-align: center;
+    border-radius: 6px;
+    color: #e2a5d4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    transition: all 0.3s ease-in, width 0.3s ease-in;
+  }
+}
+
+li:hover {
+  margin: 8px;
+  border: 1px;
+  padding: 12px;
+  width: 120px;
+  /* border-style: solid; */
+  /* border-color: red; */
+  background-color: #e2a5d4;
+  color: #080a0c;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+a {
+  color: #080a0c;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #080a0c;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #080a0c;
+  text-decoration: none;
+}
+
+/*Main Part 1*/
+
+#meimage {
+  width: 70vw;
+}
+
+@media (min-width: 30em) {
+  #meimage {
+    width: 30vw;
+  }
+}
+
+/* center techniek bron https://www.w3schools.com/howto/howto_css_image_center.asp */
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
+}
+
+/* Intro for first screen of the website */
+
+#intro {
+  width: 85vw;
+  height: 120vh;
+  margin: 0;
+  background-color: #080a0c;
+  /* background-color: rgb(25, 18, 36); */
+  display: flex;
+  justify-content: center;
+}
+
+@media (min-width: 30em) {
+  #intro {
+    width: 100vw;
+    height: 95vh;
+    margin: 0;
+    background-color: #080a0c;
+    /* background-color: rgb(25, 18, 36); */
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.headcontainer {
+  width: 800vw;
+  justify-content: center;
+  padding: 10px;
+
+  /* display: grid;
+  grid-template-columns: 0 4px;
+  grid-template-rows: 20vh 200px 100px 100px;
+  grid-template-areas:
+    "."
+    "Kop Foto Tekst"; */
+}
+
+@media (min-width: 30em) {
+  .headcontainer {
+    width: 50vw;
+    /* justify-content: center; */
+    display: grid;
+    align-content: center;
+    align-items: center;
+    grid-template-columns: 390px 35vw;
+    grid-template-rows: 100px 50px;
+    grid-template-areas: "KopEnTekst Foto";
+    /* ". Foto";
+    border: solid;
+    border-style: dotted;
+    border-color: white; */
+  }
+}
+
+#blockA {
+  grid-area: Foto;
+}
+
+#blockB {
+  grid-area: KopEnTekst;
+}
+
+h1 {
+  font-size: 3em;
+  font-family: "Jazmin-Bold", cursive;
+  color: #e2a5d4;
+}
+
+/*Portfolio or "Work"*/
+
+/* article {
+  padding: 30px;
+  width: 350px;
+  background-color: blue;
+  margin: 15px;
+  text-align: left;
+} */
+
+#portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100vw;
+}
+
+.Work {
+  background-color: #272727;
+  width: 84.2vw;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+@media (min-width: 30em) {
+  .Work {
+    background-color: #272727;
+    border-radius: 18px;
+    width: 275px;
+    padding: 40px;
+    margin: 20px;
+  }
+}
+
+.portButton p {
+  color: #000000;
+}
+
+button {
+  background: #e2a5d4;
+  border: none;
+  width: 200px;
+  height: 65px;
+  border-radius: 16px;
+  color: #000000;
+  font-weight: bold;
+  font-size: 1.2em;
+  transition: all 0.3s;
+}
+button:hover {
+  background: #e2a5d4;
+  border: none;
+  width: 270px;
+  height: 65px;
+  cursor: pointer;
+  border-radius: 16px;
+  color: #000000;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+#contact {
+  margin-top: 15vh;
+  margin-bottom: 15vh;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+@media (min-width: 30em) {
+  #contact {
+    margin-top: 15vh;
+    margin-bottom: 15vh;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+#submit {
+  width: 200px;
+  height: 50px;
+  background: #e2a5d4;
+  color: black;
+  border-radius: 5px;
+  border: none;
+  font-size: 1em;
+  font-family: "AmicaPro-Regular";
+  /* margin-left: 6.5rem;
+  margin-right: 6.5rem; */
+}
+
+@media (min-width: 30em) {
+  #submit {
+    width: 200px;
+    height: 50px;
+    background: #e2a5d4;
+    color: black;
+    border-radius: 5px;
+    border: none;
+    font-size: 1em;
+    font-family: "AmicaPro-Regular";
+    margin-left: 6.5rem;
+    margin-right: 6.5rem;
+  }
+}
+
+h2 {
+  text-align: center;
+  font-size: 1.5em;
+  font-family: "Jazmin-Medium";
+  color: aliceblue;
+}
+
+p {
+  font-size: 1em;
+  font-family: "AmicaPro-regular", monospace;
+  color: aliceblue;
+  width: auto;
+}
+
+#RequestForm p {
+  margin-left: 0;
+}
+
+@media (min-width: 30em) {
+  #RequestForm p {
+    margin-left: 6.5rem;
+  }
+}
+
+#form {
+  width: 75vw;
+  border-radius: 30px;
+  padding: 15px;
+  font-size: 1em;
+  font-family: "AmicaPro-Regular";
+  margin-bottom: 30px;
+  margin-left: 6.5rem;
+  margin-right: 6.5rem;
+}
+
+#RequestForm {
+  width: 80vw;
+}
+
+@media (min-width: 30em) {
+  #form {
+    width: 400px;
+    border-radius: 30px;
+    padding: 15px;
+    font-size: 1em;
+    font-family: "AmicaPro-Regular";
+    margin-bottom: 30px;
+  }
+}
+
+#textfield {
+  width: 75vw;
+  height: 300px;
+  border-radius: 30px;
+  padding: 15px;
+  font-size: 1em;
+  font-family: "AmicaPro-Regular";
+  margin-bottom: 30px;
+  /* margin-left: 6.5rem;
+  margin-right: 6.5rem; */
+}
+
+@media (min-width: 30em) {
+  #textfield {
+    width: 400px;
+    height: 300px;
+    border-radius: 30px;
+    padding: 15px;
+    font-size: 1em;
+    font-family: "AmicaPro-Regular";
+    margin-bottom: 30px;
+    margin-left: 6.5rem;
+    margin-right: 6.5rem;
+  }
+}
+
+/* Overzicht Pagina */
+
+#introscherm {
+  background-image: url(figures/bg_thuisfront.jpg);
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+#element1 {
+  grid-area: element1;
+}
+#backpijl {
+  grid-area: backpijl;
+}
+
+#KOP {
+  grid-area: KOP;
+}
+
+#nextpijl {
+  grid-area: nextpijl;
+}
+
+#element2 {
+  grid-area: element2;
+}
+
+#introcontent {
+  height: 80vh;
+  width: 98vw;
+  display: grid;
+  place-items: center;
+  align-content: center;
+  border-color: aliceblue;
+  grid-template-columns: 10vw 15vw 50vw 15vw 10vw;
+  grid-template-rows: 100px 300px 100px;
+  grid-template-areas:
+    "element1 element1 . . ."
+    "backpijl . KOP . nextpijl"
+    ". . . element2 element2";
+}
+
+#explanation {
+  height: 100vh;
+  width: 100vw;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  background-color: aliceblue;
+}
+
+#explanation p {
+  color: black;
+  width: 80vw;
+}
+
+#explanation h2 {
+  color: black;
+  padding-top: 1.5em;
+}
